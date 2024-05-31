@@ -25,3 +25,28 @@ li:hover {
 a{
   color: #76e5fc;
 }
+<style>
+
+  h1 {
+  color: #76e5fc;
+  font-size: 75px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: cyan;
+  text-decoration-thickness: 7px;
+  text-shadow: 1px 1px 3px cyan;
+  letter-spacing: 3px
+  font-family: "Lucida Console", "Courier New", "Papyrus";
+}
+body {
+  background-color: black;
+}
+img {
+  width: 70%;
+  border-radius: 34%;
+}
+img:hover {
+  transform: scaleX(-1);
+}
+  
+</style>
